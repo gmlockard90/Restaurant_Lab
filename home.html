@@ -4,47 +4,63 @@
 
         <title>Restaurant - Home Page</title>
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
         <link href='https://fonts.googleapis.com/css?family=Waiting for the Sunrise' rel='stylesheet'>
 
     </head>
 
-    <body>
+    <div class="container">
         <header>
-            
-            <div id=restName>
-                <h1><b>Marco Pollo</b></h1>
+            <div class="row">
+            <div class="col-lg-12"><center><h1><b>Marco Pollo</b></h1></center></div>
             </div>
-            
-            <p>
-                <a href="home.html">Home</a>
-                <a href="Menu.html">Menu</a>
-                <a href="Contact.html">Contact Us</a>
-                <br>
-            </p>
-
-            <hr>
+            <div class="row">
+            <div class="col-lg-3">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="home.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li><a href="Menu.html"><span class="glyphicon glyphicon-shopping-cart"></a></li>
+                    <li><a href="Contact.html"><span class="glyphicon glyphicon-phone-alt"></span></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-8"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="jumbotron">
+                        <h4>Grand Opening...Today!</h4>
+                    </div>
+                </div>
+            </div>
         </header>
 
-        <div id=BG>
-            <p>
-                <img src="images/chicken.jpg" alt="Picture of Chicken" style="width: 400px; height: 150px"/>                
-            </p>
-            <p class="border">
-                Marco Pollo is a mexican restaurant located on the water of the San Francisco bay.
-            </p>
+        <div class="row">
+            <div class="col-lg-12"><img src=images/chicken.jpg 
+                class="img-circle center-block" 
+                alt="Chicken" 
+                width="350" 
+                height="350">
+            </div>
         </div>
-        
+        </br>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="border">
+                    Marco Pollo is a mexican restaurant located on the water of the San Francisco bay.
+                </p>
+            </div>
+        </div>
+        </br>
         <footer>
-            <hr>
+        <div class="row">
+            <div class="col-md-12"><center>1 Main Street, San Francisco, CA, 12345</center></div>
+        </div>
 
-            <div id=center>
-                <h4>1 Main Street, San Francisco, CA, 12345</h4>
-                <h4>(132) 456 - 7890</h4>
-            </div>>>
-
-            <hr>
+        <div class="row">
+            <div class="col-lg-12"><center>(132) 456 - 7890</center></div>
+        </div>
         </footer>
 
-    </body>
+      </div>
+    
 </html>

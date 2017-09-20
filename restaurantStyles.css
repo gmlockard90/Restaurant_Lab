@@ -1,11 +1,3 @@
-header {
-    background-color: #47D693;
-}
-
-footer{
-    background-color:#D80A0A;
-}
-
 #restName{
     font-family: 'Waiting for the Sunrise'; 
     font-size: 22px;
@@ -25,10 +17,15 @@ footer{
     text-align: center;
 }
 
-#BG{
-    background-color: rgba(233, 136, 136, 0.36);
+.table2{
     text-align: center;
 }
+
+.table2 thead{
+    font-weight: bold;
+    background-color: lightgrey;
+}
+
 
 a {
     font-family: monospace;
@@ -39,7 +36,7 @@ a {
     color: Green;
   }
   a:visited {
-    color: Red;
+    color: black;
   }
   a:hover {
     font-weight: bold;
@@ -48,22 +45,28 @@ a {
     text-decoration: none;
   }
 
-  .table2{
+  .table3{
       table-layout: fixed;
       width: 50%;
   }
 
-  .table2 td{
+  .table3 td{
     text-align: left;
     height: 35px;
 }
 
-.table2 caption{
+.table3 caption{
     text-align: left;
     text-decoration: underline;
     font-size: 20px;
     font-weight: bold;    
 }
+
+.jumbotron{
+    text-align: center;
+}
+
+
   
 
 
